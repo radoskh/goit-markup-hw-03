@@ -1,0 +1,50 @@
+.header {
+}
+.header-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+}
+.header-nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #404bbf;
+}
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+  color: #434455;
+}
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: #404bbf;
+}
