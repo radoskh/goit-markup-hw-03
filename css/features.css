@@ -15,13 +15,14 @@
 .features-title {
 }
 .features-list {
-  width: 264px;
-
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .features-item {
 }
@@ -33,4 +34,6 @@
 }
 .features-text {
   color: #434455;
+
+  padding-top: 8px;
 }

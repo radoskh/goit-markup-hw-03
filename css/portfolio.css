@@ -7,6 +7,14 @@
   text-align: center;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+
+  width: 1128px;
 }
 .portfolio-item {
 }
