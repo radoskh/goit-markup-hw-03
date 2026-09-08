@@ -13,6 +13,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
+  margin-left: 15px;
 }
 .header-web {
   font-family: "Raleway", sans-serif;
@@ -39,6 +41,10 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #2e2f42;
+  padding: 0 24px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
