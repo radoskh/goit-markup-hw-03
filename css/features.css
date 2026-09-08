@@ -1,9 +1,27 @@
 .features {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
+.features .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
 .features-title {
 }
 .features-list {
+  width: 264px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 .features-item {
 }
