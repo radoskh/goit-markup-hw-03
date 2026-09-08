@@ -8,9 +8,21 @@ body {
   background: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ol,
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -23,4 +35,33 @@ button {
 
 address {
   font-style: normal;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+img {
+  display: block;
 }
