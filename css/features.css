@@ -5,11 +5,6 @@
 }
 
 .features .container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
 }
 
 .features-title {
@@ -20,11 +15,9 @@
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .features-item {
+  width: 264px;
 }
 .features-li-title {
   font-weight: 500;
