@@ -16,8 +16,6 @@
   font-size: 36px;
   line-height: 1.11111;
   text-align: center;
-
-  padding-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -36,13 +34,15 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 8px;
 }
 .portfolio-text {
   color: #434455;
+}
 
-  padding-left: 16px;
+.portfolio-content-wrapper {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+
+  padding: 32px 16px;
 }

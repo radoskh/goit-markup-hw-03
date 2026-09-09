@@ -27,11 +27,10 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 24px;
-
-  border-radius: 0 0 4px 4px;
 }
 .team-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 .team-pic {
 }
