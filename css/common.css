@@ -51,12 +51,13 @@ address {
 }
 
 .container {
-  display: flex;
-  align-items: center;
   width: 1158px;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 img {

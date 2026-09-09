@@ -4,6 +4,8 @@
 }
 
 .header .container {
+  display: flex;
+  align-items: center;
 }
 .header-link {
   font-family: "Raleway", sans-serif;
@@ -15,6 +17,10 @@
   color: #2e2f42;
   margin-right: 76px;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-web {
   font-family: "Raleway", sans-serif;
@@ -29,11 +35,10 @@
 }
 .header-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  margin-right: auto;
 }
 .header-item {
 }
